@@ -14,6 +14,8 @@ function fetchGamingNews() {
                     <h3>${article.title}</h3>
                     <p>${article.description}</p>
                 `;
+                articleElement.style.borderBottom = '1px solid #ff1a1a';
+                articleElement.style.padding = '10px 0';
                 newsSection.appendChild(articleElement);
             });
         })
