@@ -11,20 +11,11 @@
         <h1>Gaming Browser</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#news">News</a></li>
-            <li><a href="#resources">Resources</a></li>
-        </ul>
+        <input type="text" id="url" placeholder="Enter URL">
+        <button onclick="loadPage()">Go</button>
     </nav>
     <main>
-        <section id="news">
-            <h2>Gaming News</h2>
-            <!-- News content here -->
-        </section>
-        <section id="resources">
-            <h2>Resource Management</h2>
-            <!-- Resource management tools here -->
-        </section>
+        <iframe id="browser-frame" src="about:blank"></iframe>
     </main>
     <footer>
         <p>© 2024 Gaming Browser</p>
